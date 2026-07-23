@@ -1,7 +1,17 @@
 aid: 1yongcloud
 name: 1yongcloud
-description: 1yongcloud is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Beijing Yiyong Technology Co., Ltd. (北京壹永科技有限公司 / 1yongcloud), founded in
+  October 2017, is a Chinese oncology big-data and artificial-intelligence
+  company. It builds medical-data collection, quality-control and governance
+  capabilities and healthcare information products for hospitals and government
+  health programs. Its product lines include a tumor diagnosis-and-treatment
+  standardization and cost-rationalization platform, a hospital cancer
+  opportunistic-screening platform, an integrated clinical-research platform,
+  and a smart-hospital comprehensive operations decision platform. The company
+  is backed by investors including Qiming Venture Partners, Sequoia Capital
+  China, and Cathay Capital. It operates no public developer portal, API, or
+  SDK; this profile tracks 1yongcloud as a company in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/1yongcloud/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,30 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://www.1yongcloud.com/upload/cn/image/2021-10/col7/1635341236441.png
 tags:
 - Company
+- Healthcare
+- Oncology
+- Artificial Intelligence
+- Big Data
+- Medical Data
+- China
+- Hospital
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/1yongcloud-domain-security.yml
 - type: Website
-  url: https://1yongcloud.com
+  url: https://www.1yongcloud.com
+- type: Blog
+  url: https://www.1yongcloud.com/col21/list
+- type: About
+  url: https://www.1yongcloud.com/col10/list
+- type: Products
+  url: https://www.1yongcloud.com/col12/list
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
